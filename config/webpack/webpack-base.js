@@ -20,6 +20,7 @@ module.exports = {
       root: 'cornerstone'
     },
     libraryTarget: 'umd',
+    globalObject: 'this',
     path: outputPath,
     umdNamedDefine: true
   },
